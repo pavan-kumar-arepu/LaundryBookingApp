@@ -1,4 +1,10 @@
 // Importing the createSlice function from the Redux Toolkit
+/* 
+1. Redux follows a unidirectional data flow pattern where state changes are initiated by dispatching actions
+2. By dispatching actions, you trigger reducers to update the state in the Redux store. 
+Reducers are pure functions that take the current state and an action as arguments and return the next state. 
+Redux manages these state updates in a predictable and centralized manner
+*/
 import {createSlice} from '@reduxjs/toolkit';
 
 // Defining the initial state for the user slice of the store
